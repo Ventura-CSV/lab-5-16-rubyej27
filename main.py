@@ -1,5 +1,6 @@
 import random
-
+greater = lambda x, y: x if x > y else y
+filter50 = lambda numbers: list(filter(lambda num: num > 50, numbers))
 ##################################################
 # Make your lambda function here
 # greater =
